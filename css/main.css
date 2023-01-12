@@ -1,0 +1,47 @@
+/* livvic-regular - latin */
+@font-face {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/livvic-v13-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/livvic-v13-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+.active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Livvic", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  text-align: center;
+  font-size: 3rem;
+  color: #ffffff;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Livvic", sans-serif;
+  margin: 0;
+  color: #ffffff;
+  padding: 0;
+  height: 100vh;
+  text-align: center;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+}
